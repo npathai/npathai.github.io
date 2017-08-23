@@ -1,0 +1,25 @@
+# Site settings
+title: Narendra Pathai's Blog
+header-img: img/home-bg.jpg
+email: narendra.pathai@gmail.com
+copyright_name: Narendra Pathai
+description: "A place where I talk about programming, software industry and host my courses"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: NarendraPathai
+github_username:  npathai
+facebook_username:  NarendraPathai
+email_username:  narendra.pathai@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
